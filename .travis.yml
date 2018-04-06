@@ -1,0 +1,18 @@
+dist: trusty
+sudo: required
+language: node_js
+node_js:
+  - "8"
+cache:
+  yarn: true
+install:
+  - npm install -g truffle
+  - npm install -g ethereumjs-testrpc
+  - npm install --save-dev solidity-coverage
+  - npm install
+script:
+  - npm run gana
+  - sleep 5
+  # - truffle test
+after_script:
+  - npm run coverage

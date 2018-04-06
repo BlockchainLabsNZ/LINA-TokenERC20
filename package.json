@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "node": "ganache-cli -m 'zipper' -l 8000000 -a 101 -b 5 -p 9545",
     "build": "truffle compile && truffle migrate",
-    "flatten": "truffle-flattener contracts/ZipToken.sol > ZipToken-flat.sol",
+    "gana": "node_modules/.bin/testrpc-sc --network coverage --gasLimit 0xfffffffffff --gasPrice 1  > /dev/null &",
     "test": "truffle test",
     "coverage": "./node_modules/.bin/solidity-coverage"
   },
