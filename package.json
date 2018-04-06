@@ -1,0 +1,40 @@
+{
+  "name": "LINA",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "ganache-cli -m 'zipper' -l 8000000 -a 101 -b 5 -p 9545",
+    "build": "truffle compile && truffle migrate",
+    "flatten": "truffle-flattener contracts/ZipToken.sol > ZipToken-flat.sol",
+    "test": "truffle test",
+    "coverage": "./node_modules/.bin/solidity-coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-register": "^6.23.0",
+    "bignumber.js": "^5.0.0",
+    "bluebird": "^3.5.1",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.0.0",
+    "chai-bignumber": "^2.0.0",
+    "ethjs-abi": "^0.2.1",
+    "ganache-cli": "^6.0.3",
+    "line-reader": "^0.4.0",
+    "lodash": "^4.17.4",
+    "truffle": "^4.0.6",
+    "truffle-flattener": "^1.2.3",
+    "web3": "^1.0.0-beta.29",
+    "zeppelin-solidity": "^1.6.0"
+  },
+  "devDependencies": {
+    "eth-gas-reporter": "^0.1.1",
+    "solidity-coverage": "^0.4.15"
+  }
+}
