@@ -9,7 +9,7 @@ File             |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
 
 
 
-Full coverage report of related contracts is [here](https://github.com/BlockchainLabsNZ/etheal-contracts/tree/audit/audit/coverage).
+Full coverage report of related contracts is [here](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/tree/master/audit/coverage).
 
 <br>
 
