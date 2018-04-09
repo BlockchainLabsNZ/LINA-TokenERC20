@@ -1,11 +1,11 @@
-# LINA Token Contracts Audit Report
+# LINA Token Contract Audit Report
 
 ## Preamble
 This audit report was undertaken by **BlockchainLabs.nz** for the purpose of providing feedback to **Lina Network**.
 
 It has subsequently been shared publicly without any express or implied warranty.
 
-Solidity contracts were sourced from the Ethereum mainnet [TokenERC20](https://etherscan.io/address/0xc05d14442a510de4d3d71a3d316585aa0ce32b50#code) - We would encourage all community members and token holders to make their own assessment of the contracts.
+Solidity contracts were sourced from the Ethereum mainnet at [0xc05d14442a510de4d3d71a3d316585aa0ce32b50](https://etherscan.io/address/0xc05d14442a510de4d3d71a3d316585aa0ce32b50#code) - We would encourage all community members and token holders to make their own assessment of the contracts.
 
 ## Scope
 The following contracts were subject for static, dynamic and functional analyses:
