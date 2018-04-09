@@ -74,7 +74,7 @@ The audit report focuses on the following key areas, although this list is not e
 - **burn() function doesn’t return any value** - `Best practice`
 <br>burn() function doesn’t return any bool value as it announced in the function definition ... [View on GitHub](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/issues/1)
 
-- **Total Supply unnecessary displayed twice** - `Best practice`
+- **Total Supply unnecessarily displayed twice** - `Best practice`
 <br>It is not necessary to display totalSupply twice in the contract ... [View on GitHub](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/issues/2)
 
 ### Moderate
