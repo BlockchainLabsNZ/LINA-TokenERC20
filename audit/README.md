@@ -71,7 +71,7 @@ The audit report focuses on the following key areas, although this list is not e
 
 ### Minor
 
-- **Differentiate functions and events by names** - `Best practice`
+- **burn() function doesn’t return any value** - `Best practice`
 <br>burn() function doesn’t return any bool value as it announced in the function definition ... [View on GitHub](https://github.com/BlockchainLabsNZ/LINA-TokenERC20/issues/1)
 
 - **Total Supply unnecessary displayed twice** - `Best practice`
