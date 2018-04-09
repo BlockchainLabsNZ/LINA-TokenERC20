@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "truffle compile && truffle migrate",
-    "gana": "node_modules/.bin/testrpc-sc --network coverage --gasLimit 0xfffffffffff --gasPrice 1  > /dev/null &",
+    "gana": "testrpc --gasLimit 0xfffffffffff --gasPrice 1  > /dev/null &",
     "test": "truffle test",
     "coverage": "./node_modules/.bin/solidity-coverage"
   },
